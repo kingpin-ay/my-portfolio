@@ -1,12 +1,12 @@
 import Head from "next/head";
 
-import Banner from './components/Banner'
-import Navbar from './components/Navbar'
-import Services from "./components/Services";
-import PortFolioWork from "./components/PortFolioWork";
-import SkillCard from "./components/SkillCard";
+import Banner from '../components/Banner'
+import Navbar from '../components/Navbar'
+import Services from "../components/Services";
+import PortFolioWork from "../components/PortFolioWork";
+import SkillCard from "../components/SkillCard";
 
-import {block_chain , web_dev} from "./contents/skillContent"
+
 
 
 import Image from "next/image";
@@ -21,6 +21,20 @@ export default function Home() {
     const [darkMode , setDarkMode] = useState(false);
     let linkdinLink = "https://www.linkedin.com/in/ayush-mondal-a13023205/"
     let twitterLink = "https://twitter.com/_Ayush_01"
+
+    const block_chain = {
+    
+      "title" : "Applicable BlockChain",
+      "description" : "Creating applicable blockchain and crypto currencies is the first phase of a two-year plan, to be announced in May, for the use of real world problem solving involved. Some of these projects, which were brought forward by me, include the development of blockchain-based currencies and web-3 projects",
+      "technologys" : ["Infura" , "Metamask" ,"Solidity"]
+    }
+
+    const web_dev = {
+      
+      "title" : "Web Application",
+      "description" : "Creating websites and all kind of web application for the freelancing stuff is my hobby . I've been involved with web development since 2020. For quite some time, I have been using the web to generate small income from it and have built up a lot of web applications and websites on it.",
+      "technologys" : ["React & Vite" , "NextJs" ,"Django"]
+    }
 
   return (
     <div className={darkMode ? "dark": "" }>
