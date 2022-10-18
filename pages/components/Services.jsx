@@ -8,7 +8,7 @@ export default function Services() {
         </h3>
         <p className="text-md py-2 leading-8 text-gray-80 dark:text-white">
         Since the beginning of my journey as a freelance designer and
-        developer, I've done remote work for
+        developer, I&apos;ve done remote work for
         <span className="text-teal-500 "> agencies </span>
         consulted for <span className="text-teal-500">startups </span>
         and collaborated with talanted people to create digital products
