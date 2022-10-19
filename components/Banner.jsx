@@ -20,7 +20,7 @@ export default function Banner(props) {
         <div className="text-5xl flex justify-center gap-16 py-2 text-gray-600">
             <a href={props.linkdinLink} target="_blank" rel="noreferrer"><AiFillLinkedin className="cursor-pointer"/></a>
             <a href={props.twitterLink} target="_blank" rel="noreferrer"><AiFillTwitterCircle className="cursor-pointer"/></a>
-            <AiFillYoutube className="cursor-pointer"/>
+            <a href={props.youtubeLink} target="_blank" rel="noreferrer"><AiFillYoutube className="cursor-pointer"/></a>
         </div>
     </>
   )

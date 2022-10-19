@@ -21,6 +21,7 @@ export default function Home() {
     const [darkMode , setDarkMode] = useState(false);
     let linkdinLink = "https://www.linkedin.com/in/ayush-mondal-a13023205/"
     let twitterLink = "https://twitter.com/_Ayush_01"
+    let youtubeLink = "https://www.youtube.com/channel/UCCXsTajt-2O5gWe5JMT0n7A"
 
     const block_chain = {
     
@@ -52,7 +53,7 @@ export default function Home() {
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode}/>
   
           {/* Banner section for the social links */}
-          <Banner linkdinLink={linkdinLink}  twitterLink={twitterLink}/>
+          <Banner linkdinLink={linkdinLink}  twitterLink={twitterLink} youtubeLink={youtubeLink}/>
 
           {/* this is a profile photo of me showing my image on the portfolio page */}
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
